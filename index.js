@@ -16,3 +16,4 @@ const berny = {
 };
 
 console.log(steven.describeJob());
+console.log(berny.describeJob());
