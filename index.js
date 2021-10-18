@@ -2,10 +2,17 @@ const person = {
   age: 43,
   isGold: true,
   firstName: "Steven",
+  describeJob() {
+    return `${this.firstName} is a  ${this.job ? this.job : "unemployed"}`;
+  },
 };
 
-const steven = { ...person, lastName: "Orcun" };
-const berny = { ...person, lastName: "Orcun", firstName: "Bernard" };
+const steven = { ...person, lastName: "Orcun", job: "Dev" };
+const berny = {
+  ...person,
+  lastName: "Yalap",
+  firstName: "Bernard",
+  job: "Teacher",
+};
 
-console.log(steven);
-console.log(berny);
+console.log(steven.describeJob());
