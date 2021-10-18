@@ -5,3 +5,7 @@ const person = {
 };
 
 const steven = { ...person, lastName: "Orcun" };
+const berny = { ...person, lastName: "Orcun", firstName: "Bernard" };
+
+console.log(steven);
+console.log(berny);
