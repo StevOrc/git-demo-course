@@ -14,5 +14,3 @@ const berny = {
   firstName: "Bernard",
   job: "Teacher",
 };
-
-console.log(steven.describeJob());
