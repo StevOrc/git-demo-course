@@ -15,3 +15,4 @@ const berny = {
   job: "Teacher",
 };
 console.log(berny.describeJob());
+console.log(steven.describeJob());
