@@ -18,5 +18,5 @@ console.log(berny.describeJob());
 
 function applyPrmotion(person) {
   if (person?.isGold) return true;
-  return false;
+  return "Apply promotion to this user";
 }
